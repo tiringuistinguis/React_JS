@@ -10,7 +10,7 @@ class DatosApi extends Component {
         }
     }
     componentDidMount(){
-        axios.get('http://jsonplaceholder.typicode.com/posts')
+        axios.get('https://my-json-server.typicode.com/tiringuistinguis/Api-3')
         .then(resp=>{
             this.setState({
                 posts: resp.data
@@ -18,7 +18,7 @@ class DatosApi extends Component {
         })
     }
     /*componentDidMount(){
-        fetch('http://jsonplaceholder.typicode.com/posts',{method:'get'})
+        fetch('https://my-json-server.typicode.com/tiringuistinguis/Api-3',{method:'get'})
         .then(response => response.json())
         .then(dataResponse => {this.setState({posts: dataResponse})});
     }*/
