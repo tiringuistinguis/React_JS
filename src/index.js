@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './Components/Rutas/App';
 import reportWebVitals from './reportWebVitals';
-import Estudiante from './Contenedor';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import Estudiante from './Components/Moleculas/Contenedor';
+import NavBar from './Components/Organismos/NavBar';
+import Footer from './Components/Organismos/Footer';
 /*ReactDOM.render(
   <React.StrictMode>
     <App />
