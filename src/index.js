@@ -14,6 +14,7 @@ import Footer from './Footer';
   
 );
 *//*
+
 ReactDOM.render(
   <React.StrictMode>
     <Estudiante/>
@@ -23,7 +24,6 @@ ReactDOM.render(
 );
 */
 ReactDOM.render(
-  
   <React.StrictMode>
     <NavBar/>
   </React.StrictMode>,
@@ -31,7 +31,7 @@ ReactDOM.render(
 );
 ReactDOM.render(
   <React.StrictMode>
-    <Estudiante/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
   
@@ -44,9 +44,4 @@ ReactDOM.render(
   
 );
 
-
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
